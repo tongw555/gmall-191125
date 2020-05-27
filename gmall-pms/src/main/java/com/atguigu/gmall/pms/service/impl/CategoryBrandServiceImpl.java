@@ -1,5 +1,6 @@
 package com.atguigu.gmall.pms.service.impl;
 
+import com.atguigu.gamll.pms.entity.CategoryBrandEntity;
 import org.springframework.stereotype.Service;
 import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -9,7 +10,6 @@ import com.atguigu.gmall.common.bean.PageResultVo;
 import com.atguigu.gmall.common.bean.PageParamVo;
 
 import com.atguigu.gmall.pms.mapper.CategoryBrandMapper;
-import com.atguigu.gmall.pms.entity.CategoryBrandEntity;
 import com.atguigu.gmall.pms.service.CategoryBrandService;
 
 
